@@ -54,7 +54,7 @@ The application includes navigation for the following campus locations:
 
 2. **Install required dependencies**
    ```bash
-   pip install Pillow
+   pip install -r requirements.txt
    ```
 
 3. **Add campus map image**
@@ -65,9 +65,9 @@ The application includes navigation for the following campus locations:
 
 1. **Run the application**
    ```bash
-   python "final aalAAT (3).ipynb"
+   python bmse_path_finder.py
    ```
-   *Note: You may need to convert the Jupyter notebook to a Python script first*
+   *The application is now available as a standalone Python script*
 
 2. **Using the interface**
    - Select your starting point from the dropdown menu
@@ -102,7 +102,9 @@ The application includes navigation for the following campus locations:
 ```
 BMSCE_path_finder/
 ├── README.md
-├── final aalAAT (3).ipynb
+├── bmse_path_finder.py          # Main Python application
+├── BMSCE_PATH.ipynb             # Original Jupyter notebook
+├── requirements.txt             # Python dependencies
 └── 4df980e3-d950-4c1f-b402-f4fadc9bba6f.jpg (campus map)
 ```
 
